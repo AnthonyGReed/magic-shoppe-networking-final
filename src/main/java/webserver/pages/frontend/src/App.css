@@ -1,0 +1,79 @@
+.App {
+  background-color: #AD914C;
+  color: #242014;
+  height: 100vh;
+  position: fixed;
+  overflow-y: scroll;
+}
+
+.buttonholder{
+  display: flex;
+  justify-content: center;
+}
+
+.buttonholder>.btn {
+  padding: 1em;
+  margin: 2em;
+  font-size: 1.5em;
+}
+
+.btn {
+  background-color: #CFBD91;
+  color: #242014;
+  border: 1px solid #242014;
+}
+
+.btn:hover {
+  background-color: #242014;
+  color: #E9E0CC;
+  border: 1px solid #CFBD91;
+}
+
+.shopId {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+thead {
+  background-color: #242014;
+  color: #AD914C
+}
+
+tbody>tr {
+  background-color: #CFBD91;
+}
+
+tbody>tr:hover {
+  background-color: #E9E0CC;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.COMMON {
+  background-color: black;
+}
+
+.UNCOMMON {
+  background-color: green;
+}
+
+.RARE {
+  background-color: blue;
+}
+
+.VERYRARE {
+  background-color: purple;
+}
+
+.LEGENDARY {
+  background-color: gold;
+}
+
+.badge {
+  background-color: green;
+}
