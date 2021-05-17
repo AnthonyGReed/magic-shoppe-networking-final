@@ -4,6 +4,10 @@ import main.java.config.NetworkConstants;
 
 import java.util.HashMap;
 
+/**
+ * This object helps to parse the incoming requests for use by the API
+ * @author areed
+ */
 public class HttpRequest implements NetworkConstants {
     String requestType;
     String URI;
@@ -12,8 +16,8 @@ public class HttpRequest implements NetworkConstants {
     HashMap<String, String> queryParams;
 
     /**
-     * This object stores the incoming request and breaks it up so we can use the pieces.
-     * @param httpRequest incoming request from client
+     * This is the main constructor for the HTTPRequest object
+     * @param httpRequest The string request sent from client
      */
     public HttpRequest(String httpRequest) {
         String[] requestSegments = httpRequest.split(" ");
